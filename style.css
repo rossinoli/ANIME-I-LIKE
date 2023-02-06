@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #242424;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1,h2,h3{
+    font-weight: 900;
+    color: #242424;
+}
+
+.wrapper{
+    width: 100%;
+    margin:  0 auto;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+} 
+
+section.module p{
+margin-bottom: 40px;
+font-size: 20px;
+}
+
+section.module:last-child{
+margin-bottom: 0;      
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background: #ece7d5;
+}
+
+section.module.parallax-1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh !important;
+width: 100%;
+position: relative;
+overflow: hidden;
+background-position: 50% 50%;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+section.module.parallax-1{
+    background-image: url(https://user-images.githubusercontent.com/103609562/217077979-f8ec1e43-43ab-4cba-a202-b78dd9c0734b.jpg)
+}
+
+section.module.parallax h1{
+    color: #242424;
+    text-align: center;
+    font-size: 78px;
+}
+
+section.module.parallax-2{
+    background-image: url(https://user-images.githubusercontent.com/103609562/217081486-b19899b9-3e09-4c8e-94cb-c59b2423bb0b.png);
+}
+
+section.module.parallax-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 71vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
